@@ -77,7 +77,7 @@ $ docker ps -a // get the container ID
 $ docker exec -it [container ID] /bin/bash
 $ go run server.go
 ```
-Finally, acccess "localhost:80"""
+Finally, acccess "localhost:80"
 ## Create a goserver without vim and golang.
 
 to be continued ...
