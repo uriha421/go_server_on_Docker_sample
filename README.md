@@ -41,7 +41,7 @@ Then, prepare server.go for starting a server.
 ```
 $ vim server.go
 ```
-```/go/server.go
+```:/go/server.go
 package main
 
 import (
