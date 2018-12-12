@@ -71,7 +71,7 @@ Next, build the new image to start a new container with PORT number.
 ```
 $ docker run -p 8080:80 -td [Docker Hub username]/goserver
 ```
-Then enter the new container and start the server.
+Then, enter the new container and start the server.
 ```
 $ docker ps -a // get the container ID
 $ docker exec -it [container ID] /bin/bash
