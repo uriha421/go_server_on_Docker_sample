@@ -49,13 +49,13 @@ import (
 	"net/http"
 )
 
+func handler(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprintf(w, "Hello World!")
+}
+
 func main() {
 	http.HandleFunc("/", handler)
 	http.ListenAndServe(":8080", nil)
-}
-
-func handler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Your url path is %s", r.URL.Path[1:])
 }
 ```
 Exit the container and make a new image from the container.
